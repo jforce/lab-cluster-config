@@ -6,6 +6,9 @@ export cluster_base_domain=$(oc get ingress.config.openshift.io cluster --templa
 export platform_base_domain=${cluster_base_domain#*.}
 ```
 
+## Takeaways
+A bit interwined wioth other ext dependancies and not partculary maintained... 
+
 ## Question:  
 
 * What is the raffa-envsub container doing in `.bootstrap/argocd.yaml` Line 248
