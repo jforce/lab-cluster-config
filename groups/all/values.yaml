@@ -32,6 +32,6 @@ applications:
       argocd.argoproj.io/compare-options: IgnoreExtraneous
       argocd.argoproj.io/sync-wave: '5'
     destination:
-      namespace: cert-manager
+      namespace: openshift-cnv
     source:
-      path: components/cert-manager-operator
+      path: components/openshift-virtualization-operator
